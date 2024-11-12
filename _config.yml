@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: omkardeshpande23994/omkardeshpande23994.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -16,111 +16,7 @@ darkmode: false
 
 # Social links
 linkedin_username: omkardeshpande-23994 # LinkedIn username
-github_username: omkardeshpande # GitHub username
-
-# Additional icon links for LinkedIn
-additional_links:
-  - title: LinkedIn # Icon title
-    icon: fab fa-linkedin # LinkedIn font-awesome icon
-    url: https://linkedin.com/in/omkardeshpande-23994 # LinkedIn URL
-
-# About Section
-about_profile_image: images/profile.jpg # Profile picture path
-about_content: | # About me description (use "|" for multi-line)
-  Experienced Senior Analytics Consultant with a strong background in data analytics, business intelligence, and risk management. Skilled in process optimization, dashboard development, and stakeholder engagement to drive data-driven decision-making and efficiency.
-
-# Content Sections
-content:
-  - title: Experience # Experience section
-    layout: list # Use "list" layout for organized list
-    content:
-      - layout: left # Positioning in the section
-        title: Wells Fargo, India # Job title and location
-        sub_title: Senior Analytics Consultant # Position title
-        caption: July 2024 – Present # Job duration
-        description: | # Role description
-          - **Loudspeaker Dashboard Ownership**: Managed weekly analytics reporting for insights across teams.
-          - **JIRA Reporting Dashboard Development**: Created dashboard for team efficiency and Agile progress.
-          - **Process Optimization**: Enhanced data processes to reduce manual work.
-          - **Tableau Reporting**: Optimized data sources, improving refresh times.
-          - **Risk Management**: Aligned workflows with compliance standards.
-
-      - layout: left # Next job position
-        title: Data Axle, India (Client: American Express) # Company name and client
-        sub_title: Senior Business Systems Analyst # Job title
-        caption: June 2021 – July 2024 # Job duration
-        description: | # Role description
-          - **Process Improvement & Quality Control**: Led monthly processing for Cox and Carrier ID projects.
-          - **Dashboard Development**: Created dashboards for MDI and AMEX.
-          - **Operational Efficiency Gains**: Automated QC checklists, improved SLA timelines.
-          - **Client Engagement**: Managed client communication for project updates.
-
-      - layout: left # Next job position
-        title: ZS Associates, India # Company name
-        sub_title: Business Technology Analyst # Job title
-        caption: November 2020 – May 2021 # Job duration
-        description: | # Role description
-          - **Tableau Dashboards for BMS Eliquis**: Developed dashboards for brand management.
-          - **Data Quality Assurance**: Conducted data analysis and quality checks.
-          - **Client-Centric Reporting**: Provided analysis and recommendations.
-
-      - layout: left # Next job position
-        title: Zensar Technologies, India # Company name
-        sub_title: Data Analyst # Job title
-        caption: October 2016 – March 2019 # Job duration
-        description: | # Role description
-          - **Client Relationship Management**: Primary contact for APJGC clients.
-          - **Data Analysis and Reporting**: Used SQL, QlikView, and Tableau for reporting.
-          - **Process Optimization**: Streamlined workflows for efficiency.
-
-  - title: Education # Education section
-    layout: list # Use "list" layout for organized list
-    content:
-      - layout: left # Education entry
-        title: Munster Technological University, Cork, Ireland # University name
-        caption: 2019 – 2020 # Duration
-        sub_title: Master of Science (M.S.) - Artificial Intelligence # Degree and major
-
-      - layout: left # Next education entry
-        title: Savitribai Phule Pune University, Pune, India # University name
-        caption: 2012 – 2016 # Duration
-        sub_title: Bachelor of Engineering (B.E.) - Computer Science # Degree and major
-
-  - title: Skills # Skills section
-    layout: list # Use "list" layout for organized list
-    content:
-      - layout: top-middle # Positioning of skill entry
-        title: Data Visualization & Reporting # Skill category
-        description: | # Skill details
-          - Tableau, Advanced Excel (Pivot Tables, Macros)
-      - layout: top-middle # Next skill entry
-        title: Data Management & Quality Control # Skill category
-        description: | # Skill details
-          - SQL, Data Hygiene, Statistical Analysis, AWS Athena, S3
-      - layout: top-middle # Next skill entry
-        title: Programming Languages # Skill category
-        description: | # Skill details
-          - Python (NumPy, Pandas)
-      - layout: top-middle # Next skill entry
-        title: Project Management # Skill category
-        description: | # Skill details
-          - JIRA, Kanban, Agile & Scrum
-      - layout: top-middle # Next skill entry
-        title: Process Automation # Skill category
-        description: | # Skill details
-          - Power Query, Excel Macros
-      - layout: top-middle # Next skill entry
-        title: Documentation & Stakeholder Communication # Skill category
-        description: | # Skill details
-          - FRD, BRD, CRD, GAP Analysis, RTM
-      - layout: top-middle # Next skill entry
-        title: ETL & Database Tools # Skill category
-        description: | # Skill details
-          - Talend, Oracle SQL Developer
-      - layout: top-middle # Next skill entry
-        title: Cloud & Version Control # Skill category
-        description: | # Skill details
-          - AWS CloudWatch, Git
+github_username: omkardeshpande23994 # GitHub username
 
 # Footer
 footer_show_references: true
