@@ -1,5 +1,5 @@
 # Site
-repository: omkardeshpande23994/omkardeshpande23994.github.io
+repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -14,9 +14,28 @@ email: omkar.deshpande23994@gmail.com
 # Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-linkedin_username: omkardeshpande-23994 # LinkedIn username
-github_username: omkardeshpande23994 # GitHub username
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Omkar and I'm a senior analytics expert. 
+
+  I am most skilled in: <mark>TABLEAU</mark> and <mark>PowerBI</mark>
+
+content:
+  - title: Projects # Title for the section
+    
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Anime
+      - 
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
