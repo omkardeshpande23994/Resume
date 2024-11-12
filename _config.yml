@@ -1,5 +1,5 @@
 # Site
-repository: omkardeshpande/resume-theme
+repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -7,120 +7,124 @@ version: 2
 
 # Personal info
 name: Omkar Deshpande
-title: Senior Analytics Consultant
+title: Senior Business Analyst
 email: omkar.deshpande23994@gmail.com
+
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-linkedin_username: omkardeshpande-23994
-github_username: omkardeshpande
+linkedin_username: omkardeshpande-23994 # LinkedIn username
+github_username: omkardeshpande # GitHub username
 
-# Additional icon links
+# Additional icon links for LinkedIn
 additional_links:
-  - title: LinkedIn
-    icon: fab fa-linkedin
-    url: https://linkedin.com/in/omkardeshpande-23994
+  - title: LinkedIn # Icon title
+    icon: fab fa-linkedin # LinkedIn font-awesome icon
+    url: https://linkedin.com/in/omkardeshpande-23994 # LinkedIn URL
 
 # About Section
-about_profile_image: images/profile.jpg
-about_content: | 
+about_profile_image: images/profile.jpg # Profile picture path
+about_content: | # About me description (use "|" for multi-line)
   Experienced Senior Analytics Consultant with a strong background in data analytics, business intelligence, and risk management. Skilled in process optimization, dashboard development, and stakeholder engagement to drive data-driven decision-making and efficiency.
 
+# Content Sections
 content:
-  - title: Experience
-    layout: list
+  - title: Experience # Experience section
+    layout: list # Use "list" layout for organized list
     content:
-      - layout: left
-        title: Wells Fargo, India
-        sub_title: Senior Analytics Consultant
-        caption: July 2024 – Present
-        description: | 
-          - **Loudspeaker Dashboard Ownership**: Managed and streamlined weekly analytics reporting, providing insights across topics and teams.
-          - **JIRA Reporting Dashboard Development**: Developed a JIRA case tracking dashboard, visualizing team efficiency and Agile progress.
-          - **Process Optimization**: Improved data processes to cut execution time and reduce manual interventions.
-          - **Tableau Reporting**: Developed optimized data sources, reducing report refresh times on Tableau Server.
-          - **Risk Management**: Aligned reporting workflows with compliance standards.
+      - layout: left # Positioning in the section
+        title: Wells Fargo, India # Job title and location
+        sub_title: Senior Analytics Consultant # Position title
+        caption: July 2024 – Present # Job duration
+        description: | # Role description
+          - **Loudspeaker Dashboard Ownership**: Managed weekly analytics reporting for insights across teams.
+          - **JIRA Reporting Dashboard Development**: Created dashboard for team efficiency and Agile progress.
+          - **Process Optimization**: Enhanced data processes to reduce manual work.
+          - **Tableau Reporting**: Optimized data sources, improving refresh times.
+          - **Risk Management**: Aligned workflows with compliance standards.
 
-      - layout: left
-        title: Data Axle, India (Client: American Express)
-        sub_title: Senior Business Systems Analyst
-        caption: June 2021 – July 2024
-        description: | 
-          - **Process Improvement & Quality Control**: Spearheaded BAU and monthly processing for Cox and Carrier ID projects.
-          - **Dashboard Development**: Created production dashboards for MDI and AMEX, streamlining decision-making.
-          - **Operational Efficiency Gains**: Automated QC checklists and alerts, improving SLA timelines.
-          - **Client Engagement**: Managed end-to-end communication, ensuring timely updates and project success.
+      - layout: left # Next job position
+        title: Data Axle, India (Client: American Express) # Company name and client
+        sub_title: Senior Business Systems Analyst # Job title
+        caption: June 2021 – July 2024 # Job duration
+        description: | # Role description
+          - **Process Improvement & Quality Control**: Led monthly processing for Cox and Carrier ID projects.
+          - **Dashboard Development**: Created dashboards for MDI and AMEX.
+          - **Operational Efficiency Gains**: Automated QC checklists, improved SLA timelines.
+          - **Client Engagement**: Managed client communication for project updates.
 
-      - layout: left
-        title: ZS Associates, India
-        sub_title: Business Technology Analyst
-        caption: November 2020 – May 2021
-        description: | 
-          - **Tableau Dashboards for BMS Eliquis**: Developed dashboards that enabled strategic decisions for brand management.
-          - **Data Quality Assurance**: Performed in-depth data analysis and quality checks for accuracy.
-          - **Client-Centric Reporting**: Provided timely analysis and recommendations for business strategy.
+      - layout: left # Next job position
+        title: ZS Associates, India # Company name
+        sub_title: Business Technology Analyst # Job title
+        caption: November 2020 – May 2021 # Job duration
+        description: | # Role description
+          - **Tableau Dashboards for BMS Eliquis**: Developed dashboards for brand management.
+          - **Data Quality Assurance**: Conducted data analysis and quality checks.
+          - **Client-Centric Reporting**: Provided analysis and recommendations.
 
-      - layout: left
-        title: Zensar Technologies, India
-        sub_title: Data Analyst
-        caption: October 2016 – March 2019
-        description: | 
-          - **Client Relationship Management**: Primary contact for APJGC clients, ensuring project alignment.
-          - **Data Analysis and Reporting**: Utilized SQL, QlikView, and Tableau for customized reporting and analysis.
-          - **Process Optimization**: Streamlined workflows for case management and change requests.
+      - layout: left # Next job position
+        title: Zensar Technologies, India # Company name
+        sub_title: Data Analyst # Job title
+        caption: October 2016 – March 2019 # Job duration
+        description: | # Role description
+          - **Client Relationship Management**: Primary contact for APJGC clients.
+          - **Data Analysis and Reporting**: Used SQL, QlikView, and Tableau for reporting.
+          - **Process Optimization**: Streamlined workflows for efficiency.
 
-  - title: Education
-    layout: list
+  - title: Education # Education section
+    layout: list # Use "list" layout for organized list
     content:
-      - layout: left
-        title: Munster Technological University, Cork, Ireland
-        caption: 2019 – 2020
-        sub_title: Master of Science (M.S.) - Artificial Intelligence
-      - layout: left
-        title: Savitribai Phule Pune University, Pune, India
-        caption: 2012 – 2016
-        sub_title: Bachelor of Engineering (B.E.) - Computer Science
+      - layout: left # Education entry
+        title: Munster Technological University, Cork, Ireland # University name
+        caption: 2019 – 2020 # Duration
+        sub_title: Master of Science (M.S.) - Artificial Intelligence # Degree and major
 
-  - title: Skills
-    layout: list
+      - layout: left # Next education entry
+        title: Savitribai Phule Pune University, Pune, India # University name
+        caption: 2012 – 2016 # Duration
+        sub_title: Bachelor of Engineering (B.E.) - Computer Science # Degree and major
+
+  - title: Skills # Skills section
+    layout: list # Use "list" layout for organized list
     content:
-      - layout: top-middle
-        title: Data Visualization & Reporting
-        description: |
+      - layout: top-middle # Positioning of skill entry
+        title: Data Visualization & Reporting # Skill category
+        description: | # Skill details
           - Tableau, Advanced Excel (Pivot Tables, Macros)
-      - layout: top-middle
-        title: Data Management & Quality Control
-        description: |
+      - layout: top-middle # Next skill entry
+        title: Data Management & Quality Control # Skill category
+        description: | # Skill details
           - SQL, Data Hygiene, Statistical Analysis, AWS Athena, S3
-      - layout: top-middle
-        title: Programming Languages
-        description: |
+      - layout: top-middle # Next skill entry
+        title: Programming Languages # Skill category
+        description: | # Skill details
           - Python (NumPy, Pandas)
-      - layout: top-middle
-        title: Project Management
-        description: |
+      - layout: top-middle # Next skill entry
+        title: Project Management # Skill category
+        description: | # Skill details
           - JIRA, Kanban, Agile & Scrum
-      - layout: top-middle
-        title: Process Automation
-        description: |
+      - layout: top-middle # Next skill entry
+        title: Process Automation # Skill category
+        description: | # Skill details
           - Power Query, Excel Macros
-      - layout: top-middle
-        title: Documentation & Stakeholder Communication
-        description: |
+      - layout: top-middle # Next skill entry
+        title: Documentation & Stakeholder Communication # Skill category
+        description: | # Skill details
           - FRD, BRD, CRD, GAP Analysis, RTM
-      - layout: top-middle
-        title: ETL & Database Tools
-        description: |
+      - layout: top-middle # Next skill entry
+        title: ETL & Database Tools # Skill category
+        description: | # Skill details
           - Talend, Oracle SQL Developer
-      - layout: top-middle
-        title: Cloud & Version Control
-        description: |
+      - layout: top-middle # Next skill entry
+        title: Cloud & Version Control # Skill category
+        description: | # Skill details
           - AWS CloudWatch, Git
 
 # Footer
-footer_show_references: false
+footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
